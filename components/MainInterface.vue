@@ -1,17 +1,19 @@
 <template>
-    <div class="main-interface">
-        <LeftInterface />
-        <RightInterface />
-    </div>
+<InterfaceNavbar/>
+<div class="forgor">
+<LeftPanel/>
+<RightPanel/></div>
+<Footer/>
 </template>
 
 <style scoped>
-    .main-interface {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 100%;
-    }
 
+.forgor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    background-color: white;
+}
 
 </style>
