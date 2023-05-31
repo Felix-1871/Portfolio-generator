@@ -17,48 +17,6 @@
 
 <style scoped>
 
-h2 {
-    font-size: 20px;
-    font-weight: 100;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: aliceblue;
-}
-
-.Container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(92, 38, 38);
-    position: relative;
-   
-}
-
-.ContainerBody {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(92, 38, 38);
-    position: relative;
-   
-}
-
-.BodyInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(92, 38, 38);
-    position: relative;
-   
-}
-
 
 
 

@@ -1,19 +1,19 @@
 <template>
 <InterfaceNavbar/>
-<div class="forgor">
+<div class="PanelContent">
 <LeftPanel/>
 <RightPanel/></div>
-<Footer/>
+
 </template>
 
 <style scoped>
 
-.forgor {
+.PanelContent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
-    background-color: white;
+    background-color: #1e1e1e;
+    overflow: hidden;
 }
-
 </style>

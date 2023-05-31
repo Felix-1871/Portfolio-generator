@@ -8,11 +8,10 @@ import { NuxtLink } from '~/.nuxt/components';
     <div class="navbar">
         <nav class="tabs">
             <ul>
-                <li><NuxtLink to="/">Home</NuxtLink></li>
+                <li><NuxtLink to="/">About</NuxtLink></li>
                 <li><NuxtLink to="/skills">Skills</NuxtLink></li>
                 <li><NuxtLink to="/projects">Projects</NuxtLink></li>
                 <li><NuxtLink to="/resume">Resume</NuxtLink></li>
-                <li><NuxtLink to="/about">About</NuxtLink></li>
                 <li><NuxtLink to="/contact">Contact</NuxtLink></li>
             </ul>
         </nav>
@@ -26,7 +25,7 @@ import { NuxtLink } from '~/.nuxt/components';
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background-color: aqua;
+    background-color: #1e1e2e;
 }
 
 .navbar ul {
@@ -51,14 +50,15 @@ import { NuxtLink } from '~/.nuxt/components';
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: #cdd6f4;
     font-size: 20px;
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
 }
 
 .navbar ul li a:hover {
-    color: rgb(92, 38, 38);
+    color: #cdd6f4;
+    text-decoration: underline;
 }
 
 

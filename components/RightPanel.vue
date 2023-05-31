@@ -18,8 +18,9 @@ import { NuxtPage } from '~/.nuxt/components';
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    background-color: rgb(92, 38, 38);
+    background-color: #1e1e2e;
     position: relative;
+    border: 1px solid #28283E;
    
 }
 

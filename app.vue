@@ -1,8 +1,8 @@
 <template>
     <canvas class="mcanvas"></canvas>
-<div class="content">
+<div class="SiteContent">
     <div class="interface">
-        <MainInterface/>
+
     </div>
 </div>
 
@@ -20,6 +20,7 @@ html, body {
     background-color: #000;
     background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13), transparent), radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
     font-family: 'Montserrat', sans-serif;
+
 }
 
 canvas{
@@ -28,10 +29,7 @@ canvas{
     height: 100%;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.SiteContent {
     height: 100vh;
     width: 100vw;
 }
@@ -42,13 +40,12 @@ canvas{
     justify-content: space-between;
     height: 400px;
     width: 810px;
-    position: absolute; /*Can also be `fixed`*/
+    position: absolute; 
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
-        /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
         max-width: 100%;
         max-height: 100%;
         overflow: auto;
