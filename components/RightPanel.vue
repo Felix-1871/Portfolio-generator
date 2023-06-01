@@ -4,7 +4,7 @@ import { NuxtPage } from '~/.nuxt/components';
 <template>
     <div class="panel right">
 
-<NuxtPage></NuxtPage>
+<NuxtPage :FormData="FormData"></NuxtPage>
     </div>
 
 
@@ -25,3 +25,14 @@ import { NuxtPage } from '~/.nuxt/components';
 }
 
 </style>
+
+<script>
+
+export default {
+    name: 'RightPanel',
+    props: {
+        FormData: Object,
+    },
+}
+
+</script>

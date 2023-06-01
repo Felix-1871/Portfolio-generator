@@ -1,10 +1,10 @@
 <template>
  <div class="panel left">
     <div class="avatar-wrapper">
-        <img src="/99283735.png" alt="avatar" width="140px" height="140px">
+        <img src="/99283735.png" alt="avatar">
     </div>
-    <p class="desc nick">Felix</p>
-    <p class="desc"> <a href="https://www.linkedin.com/in/404/">LinkedIn</a></p>
+    <p class="desc nick">{{FormData.nick}}</p>
+    <p class="desc"> <a href="{{ formData.links_linkedin }}">LinkedIn</a></p>
     <p class="desc"> <a href="https://www.github.com/felix-1871">Github</a></p>
     
     
@@ -26,10 +26,18 @@
 }
 
 .avatar-wrapper {
+    width:140px; 
+    height:140px;
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid #28283E;
+}
+
+.avatar-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .desc {
@@ -52,3 +60,14 @@
 
 
 </style>
+
+<script>
+
+export default {
+    name: 'LeftPanel',
+    props: {
+        FormData: Object,
+    },
+}
+
+</script>

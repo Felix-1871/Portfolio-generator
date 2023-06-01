@@ -1,9 +1,9 @@
 <template>
-<InterfaceNavbar/>
-<div class="PanelContent">
-<LeftPanel/>
-<RightPanel/></div>
+ <InterfaceNavbar/>
+<div class="PanelContent"> 
+<LeftPanel :FormData="FormData"/>
 
+<RightPanel :FormData="FormData"/></div> 
 </template>
 
 <style scoped>
@@ -17,3 +17,20 @@
     overflow: hidden;
 }
 </style>
+
+<script>
+import LeftPanel from "./LeftPanel.vue";
+import RightPanel from "./RightPanel.vue";
+
+console.log(FormData)
+export default {
+    name: 'MainInterface',
+    props: {
+        FormData: Object,
+    },
+    components: { LeftPanel, RightPanel }
+}
+
+
+
+</script>
