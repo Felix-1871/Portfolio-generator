@@ -1,42 +1,34 @@
-# Nuxt 3 Minimal Starter
+# Portfolio Generator Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Setup
+## Table of Contents
 
-Make sure to install the dependencies:
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
 
-```bash
-# yarn
-yarn install
+## Description
 
-# npm
+This project is a web app that creates website from a user input. The application was created as a credit project for the University of Gdańsk "E-learning 2.0 technologies" course. The application is written in Vue.js and uses the Nuxt.js framework.
+
+## Installation
+
+To install the necessary dependencies, run the following command:
+
+```npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`
+To run the application, run the following command:
 
-```bash
+```npm
 npm run dev
 ```
 
-## Production
+## License
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT license.
