@@ -14,5 +14,8 @@
   },
   "overrides": {
     "vue": "latest"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.1.8"
   }
 }
