@@ -1,12 +1,30 @@
 <template>
 
 <div class="ResumeContent">
-    <h1>Resume</h1>
-    <p>Here is my resume</p>
-    <p>Here is my resume</p>
-    <p>Here is my resume</p>
-    <p>Here is my resume</p>
-    <p>Here is my resume</p>
+ <embed src="/Template.pdf">
 
 </div>
 </template>
+
+<style scoped>
+
+.ResumeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+embed{ 
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+</style>
