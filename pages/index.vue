@@ -2,14 +2,54 @@
 
     <div class="HomeContent">
         <div class="HomeContent__container">
-            <div class="HomeContent__container__text">
-                <h1 class="HomeContent__container__text__title">Hi, I'm <span class="HomeContent__container__text__title__name">Dylan</span></h1>
-                <h2 class="HomeContent__container__text__subtitle">I'm a <span class="HomeContent__container__text__subtitle__job">Web Developer</span></h2>
+                <h1 class="AboutMeTitle">Hi, I'm {{FormData?.nick}}</h1>
+                <h2 class="AboutMeContent">{{ FormData?.about_me }}</h2>
             </div>
-            <div class="HomeContent__container__image">
-                <img src="https://i.imgur.com/8XZQq8C.png" alt="Dylan" class="HomeContent__container__image__img">
-            </div>
-        </div>
+
     </div>
 
 </template>
+
+<script lang="ts">
+
+export default {
+    name: 'Home',
+    props: {
+        FormData: Object,
+    },
+}
+
+</script>
+
+<style scoped>
+
+.HomeContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.HomeContent__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.AboutMeTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    vertical-align: top;
+    
+}
+
+.AboutMeContent {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+</style>

@@ -4,8 +4,8 @@
         <img src="/99283735.png" alt="avatar">
     </div>
     <p class="desc nick">{{FormData.nick}}</p>
-    <p class="desc"> <a href="{{ formData.links_linkedin }}">LinkedIn</a></p>
-    <p class="desc"> <a href="https://www.github.com/felix-1871">Github</a></p>
+    <p class="desc"> <a :href="FormData.links_linkedin">LinkedIn</a></p>
+    <p class="desc"> <a :href="FormData.links_github">Github</a></p>
     
     
  </div>
